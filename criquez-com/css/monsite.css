@@ -1,0 +1,107 @@
+
+body{
+  padding-top:50px;
+}
+#entete{
+	height:100%;
+	min-height:100%;
+	min-width:100%;
+	position:relative;
+}
+.content-section{
+	/*padding-top:50px;*/
+	background-color:#e18728;
+  color:#fff;
+}
+.container-1{
+  padding:50px 0;
+}
+.titre{
+  font-size:50px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  font-weight:bolder;
+}
+h2{
+  font-size:35px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+ /* font-weight:bolder;*/
+}
+.bg-blanc{
+	background-color:#fff;
+  color:#666;
+}
+.bg-blanc h2{
+	/*background-color:#e18728;*/
+  color:#222; 
+  margin:0;
+  padding:20px 0;
+}
+.bg-noir{
+	background-color:#222;
+  color:#ccc;
+}
+.portfolio-item a {
+  
+}
+.portfolio-item a img{
+ border-radius:50%;
+ display:inline;
+ width:60%;
+}
+ .section-1 {
+ /* background: url(../img/intro-bg01.jpg) no-repeat bottom center;*/
+}
+.section-2 {
+  background: url(../img/intro-bg.jpg) no-repeat bottom center;
+}
+.section-3 {
+  background: url(../img/intro-bg02.jpg) no-repeat bottom center;
+}
+.download-section {
+  /*box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ font-size: 4vw;*/ 
+}
+
+.navbar-inverse .navbar-brand{
+  color:#fff;
+}
+.navbar-inverse .navbar-brand:hover{
+  color:#e18728;
+}
+.navbar-perso .navbar-nav>li>a{
+  color:#fff;
+  font-weight:bolder;
+  text-transform:uppercase;
+}
+.navbar-perso .navbar-nav>li>a:hover {
+    /*background-color: #ccc;*/
+    border-color: #080808;
+    color:#6f400e;
+}
+.navbar-perso .navbar-nav>li.active>a,.navbar-perso .navbar-nav>li.active>a:focus{
+  color:#6f400e;
+}
+
+/*.navbar-inverse .navbar-perso{
+  border-color:#666;
+}
+.navbar-inverse .navbar-perso:hover{
+  background-color:#999;
+  color:#f00;
+}
+.navbar-inverse ul li a{
+  color:#f00;
+}  */
+/* Portfolio */  
+.portfolio{
+  text-align:center;
+}
